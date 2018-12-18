@@ -66,8 +66,8 @@ def test_ts_times_fsa():
     '''TODO:'''
 
 def test_ts_times_buchi():
-    model = M('Random system model', directed=False, multi=False)
-    model1 = M.load('./simple_network.txt')
+    ts = Ts(directed=False, multi=False)
+    ts = ts.load('./simple_network.yaml')
     print('Loaded transition system of size', model1.size())
     ts.visualize(edgelabel='weight', draw='matplotlib')
     plt.show()

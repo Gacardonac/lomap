@@ -78,9 +78,7 @@ graph:
    - H
    - H
    - {'weight': 1}
-
-
-   nodes:
+  nodes:
      A: {'prop': {'a'}, 'location': (0.000, 0.000)}
      B: {'prop': {'b'}, 'location': (0.175, 0.096)}
      C: {'prop': {'c'}, 'location': (0.350, 0.192)}
